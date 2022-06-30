@@ -1,0 +1,86 @@
+abody {
+    position: relative;
+}
+
+.Bio {
+    width: 300px;
+    height: 300px;
+    background-color: brown;
+    cursor: pointer;
+    position: absolute;
+}
+
+.Bio:hover {
+    background-color: blue;
+}
+
+.Educ {
+    background-color: darkgrey;
+    color: black;
+    width: 300px;
+    height: 300px;
+    border: 5px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 20px;
+    position: absolute;
+    top: 300px;
+    left: 300px;
+}
+
+.Educ:hover {
+    background-color: rgb(173, 216, 72);
+}
+
+.photo {
+    background-color: orange;
+    color: black;
+    width: 300px;
+    height: 300px;
+    border: 5px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 20px;
+    position: absolute;
+    left: 600px;
+}
+
+.photo:hover {
+    background-color: rgb(135, 95, 95)
+}
+
+.hobby {
+    background-color: blue;
+    color: black;
+    width: 300px;
+    height: 300px;
+    border: 5px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 20px;
+    position: absolute;
+    top: 600px;
+}
+
+.hobby:hover {
+    background-color: yellowgreen;
+    transition: 1.6px;
+}
+
+.contact {
+    background-color: pink;
+    color: black;
+    width: 300px;
+    height: 300px;
+    border: 5px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 20px;
+    position: absolute;
+    top: 600px;
+    left: 600px;
+}
+
+.contact:hover {
+    background-color: green;
+}
